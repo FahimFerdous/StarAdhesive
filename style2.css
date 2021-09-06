@@ -1,0 +1,269 @@
+.floating_icons {
+    top: 50%;
+    left: 0;
+    position: fixed;
+    transform: translateY(-50%);
+    z-index: 11000;
+}
+
+.floating_icons ul {
+    padding: initial;
+}
+
+.floating_icons ul li {
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+}
+
+.floating_icons ul li a {
+    color: white;
+}
+
+.floating_icons ul li:hover {
+    padding-left: 30px;
+    width: 80px;
+    transition: 1s;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background: #55acee;
+}
+
+.youtube {
+    background: #ff0000;
+}
+
+.linkedin {
+    background: #007bb5;
+}
+
+.mar-t110 {
+    margin-top: 110px;
+}
+
+.mar-b50 {
+    margin-bottom: 50px;
+}
+
+.readon3 {
+    background: #17a2b8;
+    border-radius: 0;
+    color: #ffffff;
+    padding: 13.5px 28px 1.5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.prdouctHeading {
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.prdouctHeading h4 {
+    color: white;
+    padding-top: 12px;
+}
+
+.main-image {
+    height: 70%;
+    width: 100%;
+    padding: 1rem;
+}
+
+.main-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 0.5rem 1rem rgba(78, 106, 125, 0.15);
+}
+
+.thumb-images {
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    width: 100%;
+    padding: 5px;
+}
+
+.thumb-images img {
+    height: 9rem;
+    width: 9rem;
+    object-fit: cover;
+    box-shadow: 0 0.5rem 1rem rgba(78, 106, 125, 0.15);
+    cursor: pointer;
+    padding: 5px;
+}
+
+.thumb-images img:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.title5 {
+    color: #ad8208;
+}
+
+.productContainer {
+    padding: 5px 5px 5px 5px;
+}
+
+.ImageContainer {
+    padding: 5px;
+}
+
+.text-container h6 {
+    text-align: center;
+    font-weight: 400;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.button-container .button {
+    box-shadow: 3px 3px 8px grey;
+}
+
+.button-container .button a {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.productContent {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.ImageContainer img {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.7s;
+    box-shadow: 2px 3px 5px grey;
+}
+
+.productContent:hover .ImageContainer img {
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+
+.floating_button {
+    top: 50%;
+    right: 0;
+    position: fixed;
+    margin-right: 1%;
+    z-index: 21000;
+}
+
+.main-content .floating_button a {
+    color: white;
+    transform-origin: right;
+    transform: rotate(270deg);
+}
+
+body.home-ten.enquireModal .modal-backdrop {
+    background-color: red;
+}
+
+.ProductDetails {
+    padding-top: 5%;
+}
+
+.ProductDetails .title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.ProductDetails hr {
+    margin-bottom: 5px;
+    width: 250px;
+    margin-left: 0;
+    border-top: 2px solid #bba47e;
+    border-radius: 21%;
+}
+
+.ProductDetails .description {
+    padding-top: 2%;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.chooseQuantity {
+    display: flex;
+    padding-top: 8%;
+}
+
+.OrderSection .chooseQuantity .form-control {
+    width: 100%;
+    border: 2px solid #456073;
+    margin-left: 5%;
+    font-weight: 500
+}
+
+.chooseQuantity h5 {
+    padding-top: 1%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #456073;
+}
+
+.place-order .button-container {
+    padding-top: 10%;
+    padding-left: 0;
+}
+
+.place-order .button-container .button a {
+    font-size: 20px;
+}
+
+.headerTitle {
+    background-color: #17a2b8
+}
+
+.headerTitle h4 {
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    margin: 0;
+}
+
+.productSpec {
+    margin-top: 5%;
+}
+
+.productSpec .specification {
+    background-color: beige;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+
+.productSpec .specification ul {
+    list-style: inside;
+}
+
+.productSpec .specification ul li {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    line-height: 2.5;
+}
